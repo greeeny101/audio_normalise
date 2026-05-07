@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+*.whl
+*.tar.gz
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Editors & IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.history
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Project-specific: audio/video working files
+out/
+*.wav
+*.mp3
+*.mkv
+*.mp4
+*.webm
+*.flac
+*.aac
+*.json

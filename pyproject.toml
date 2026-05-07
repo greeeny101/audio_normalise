@@ -1,0 +1,15 @@
+[project]
+name = "audio-normalise"
+version = "0.1.0"
+description = "Two-video audio normalisation pipeline using FFmpeg / EBU R128"
+requires-python = ">=3.10"
+dependencies = [
+    "ffmpeg-python",
+    "pyloudnorm",
+    "soundfile",
+    "numpy",
+    "rich",
+]
+
+[tool.uv]
+dev-dependencies = []
