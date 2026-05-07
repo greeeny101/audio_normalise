@@ -1,6 +1,10 @@
-# normalise_videos.py
+# Normalise audio within a video file
 
 Normalises the audio levels of two video files to a common loudness target using the EBU R128 standard (LUFS), then remuxes the result back into the original video container — or exports audio-only MP3s. The video stream is never re-encoded.
+
+## Why
+
+Fed up of extracting audio from multiple music videos, only to find that some are quieter or louder than others? This may help 
 
 ## Requirements
 
